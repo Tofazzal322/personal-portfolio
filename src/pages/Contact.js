@@ -1,4 +1,4 @@
-import { Col, Row } from "react-bootstrap";
+// import { Col, Row } from "react-bootstrap";
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 
@@ -27,71 +27,10 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    // <div classNameName="mt-5 mb-5 container border  ">
-    //   <h1 classNameName="text-primary"> Contact Me </h1>
-    //   <Row classNameName="mt-3 mb-3">
-    //     <Col classNameName="mt-3" sm={12} md={6}>
-    //       <Row>
-    //         <h4 classNameName="text-success fw-bold "> Address</h4>
-    //         <p> Muscat, Oman</p>
-    //       </Row>
-    //       <Row>
-    //         <h4 classNameName="text-success fw-bold ">Phone</h4>
-    //         <p> +968 94554255 <br /> +968 94526429</p>
-    //         {/* <p> +968 94554255</p> */}
-    //       </Row>
-    //       <Row>
-    //         <h4 classNameName="text-success fw-bold "> Email</h4>
-    //         <p> tofazzal.tk3222@gmail.com <br /> topuahammed322@gmail.com</p>
-    //         {/* <p> tofazzal.tk3222@gmail.com</p> */}
-    //       </Row>
-    //     </Col>
-    //     <Col sm={12} md={6}>
-    //       <h4 classNameName="text-success fw-bold ">Quick Message </h4>
-    //       <form classNameName="d-block w-100" ref={form} onSubmit={sendEmail}>
-    //         <div classNameName="half left cf">
-    //           <input
-    //             classNameName="d-block w-100 mt-2"
-    //             type="text"
-    //             name="name"
-    //             id="input-name"
-    //             placeholder="Name"
-    //           />
-    //           <input
-    //             classNameName="d-block w-100 mt-2"
-    //             type="email"
-    //             name="email"
-    //             id="input-email"
-    //             placeholder="Email address"
-    //           />
-    //           <input
-    //             classNameName="d-block w-100 mt-2"
-    //             type="text"
-    //             id="input-subject"
-    //             placeholder="Subject"
-    //             name="subject"
-    //           />
-    //         </div>
-    //         <div classNameName="d-block w-100">
-    //           <textarea
-    //             classNameName="d-block w-100 text-area mt-2"
-    //             name="message"
-    //             type="text"
-    //             id="input-message"
-    //             placeholder="Message"
-    //           ></textarea>
-    //         </div>
-    //         <input
-    //           classNameName="d-block w-100 mt-2"
-    //           type="submit"
-    //           value="Send"
-    //           id="input-submit"
-    //         />
-    //       </form>
-    //     </Col>
-    //   </Row>
-    // </div>
-    <section className="contact_area section_gap">
+    
+    <section data-aos="flip-left"
+              data-aos-offset="200"
+              data-aos-duration="2000" className="contact_area section_gap">
       <div className="container">
         <div className="row">
           <div className="col-lg-3">
@@ -173,12 +112,7 @@ const Contact = () => {
                             </button>
                         </div>
 
-              {/* <input
-                classNameName="d-block w-50 mt-2"
-                type="submit"
-                value="Send"
-                id="input-submit"
-              /> */}
+             
             </form>
           </div>
         </div>

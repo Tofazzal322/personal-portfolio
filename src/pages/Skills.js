@@ -3,7 +3,9 @@ import React from 'react';
 const Skills = () => {
     return (
         <div>
-            <section class="features_area section_gap_top">
+            <section
+            
+                class="features_area section_gap_top">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
@@ -15,7 +17,11 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            <div class="row feature_inner">
+                    <div
+                        data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"
+             class="row feature_inner">
                 <div   class="col-lg-3 col-md-6">
                     <div class="feature_item">
                         <img src="img/services/s1.png" alt=""/>

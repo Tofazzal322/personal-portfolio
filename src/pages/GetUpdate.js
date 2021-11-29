@@ -3,7 +3,11 @@ import React from 'react';
 const GetUpdate = () => {
     return (
         
-            <section class="newsletter_area">
+        <section
+            data-aos="zoom-in-right"
+              data-aos-offset="200"
+              data-aos-duration="2000"
+            class="newsletter_area">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-12">

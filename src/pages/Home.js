@@ -3,22 +3,17 @@ import AboutMe from './AboutMe';
 import Banner from './Banner';
 import Contact from './Contact';
 import GetUpdate from './GetUpdate';
-// import EmailKey from './emailKey';
 import Projects from './Projects';
-import Resume from './Resume';
-// import Services from './Services';
 import Skills from './Skills';
+import Technology from './Technology';
 
 const Home = () => {
     return (
         <div>
-            {/* <h1> This is home page</h1> */}
             <Banner></Banner>
-            {/* <Resume></Resume> */}
-            {/* <EmailKey> </EmailKey> */}
-            {/* <Services></Services> */}
             <Projects></Projects>
             <Skills></Skills>
+            <Technology></Technology>
             <GetUpdate></GetUpdate>
             <AboutMe></AboutMe>
             <Contact></Contact>
