@@ -21,7 +21,7 @@ const AboutMe = () => {
         <div class="row justify-content-start align-items-center">
           <div class="col-lg-5">
             <div class="about_img">
-              <img class="" src="https://i.ibb.co/tzfP69S/player-4.jpg" alt="" />
+              <img class="my-img" src="https://i.ibb.co/tzfP69S/player-4.jpg" alt="" />
             </div>
           </div>
 

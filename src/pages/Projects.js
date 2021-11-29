@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 // import { Card } from "react-bootstrap";
 
 const Projects = () => {
+  const [projects, setProjects] = useState([]);
+  console.log(projects)
+
+  useEffect(() => {
+    fetch('./testingData.json')
+      .then(res => res.json())
+    .then(data=> setProjects(data))
+  },[])
+
   return (
     <section class="portfolio_area section_gap_top" id="portfolio">
         <div   class="container">
@@ -37,8 +46,8 @@ const Projects = () => {
 								</a>
 							</div>
 							<div class="short_info">
-								<h4><a href="portfolio-details.html">Az Security System</a></h4>
-								<p>E-commerce Website</p>
+								<h4><a href="portfolio-details.html">Abeer Healthcare</a></h4>
+								<p>Hospitality website</p>
 							</div>
 						</div>
 					</div>
@@ -54,8 +63,8 @@ const Projects = () => {
 								</a>
 							</div>
 							<div class="short_info">
-								<h4><a href="portfolio-details.html">Zahara Tours & Travel</a></h4>
-								<p>Tourism Services</p>
+								<h4><a href="portfolio-details.html">Az Security system</a></h4>
+								<p>E-Commerce website</p>
 							</div>
 						</div>
 					</div>
@@ -71,8 +80,8 @@ const Projects = () => {
 								</a>
 							</div>
 							<div class="short_info">
-								<h4><a href="portfolio-details.html">Abeer Healthcare </a></h4>
-								<p>Hospitality website</p>
+								<h4><a href="portfolio-details.html">Zahara Tours & Travel</a></h4>
+								<p>Tourism Services</p>
 							</div>
 						</div>
 					</div>
@@ -88,8 +97,8 @@ const Projects = () => {
 								</a>
 							</div>
 							<div class="short_info">
-								<h4><a href="portfolio-details.html">Dream House LLC</a></h4>
-								<p>Contractions company website</p>
+								<h4><a href="portfolio-details.html">Honda CRV</a></h4>
+								<p>Business Website</p>
 							</div>
 						</div>
 					</div>
@@ -105,8 +114,8 @@ const Projects = () => {
 								</a>
 							</div>
 							<div class="short_info">
-								<h4><a href="portfolio-details.html">Doctors Portal </a></h4>
-								<p>Hospitality website</p>
+								<h4><a href="portfolio-details.html">AZ Shopping center </a></h4>
+								<p>E-commerce website</p>
 							</div>
 						</div>
 					</div>
