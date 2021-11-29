@@ -10,7 +10,7 @@ const GetUpdate = () => {
                     <div class="subscription_box text-center">
                         <h2 class="text-uppercase text-white">get update from anywhere</h2>
                         <p class="text-white">
-                            Bearing Void gathering light light his eavening unto dont afraid. 
+                            CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK
                         </p>
                         <div class="subcribe-form" id="mc_embed_signup">
                             <form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscription relative">

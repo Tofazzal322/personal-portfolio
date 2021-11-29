@@ -3065,8 +3065,15 @@ h6 {
     display: none; }
 
   .header_area .navbar .primary_btn {
-    display: none; }
+    display: none; 
+    
+    
+    }
 
+.text-deCuration{
+  text-decoration: none !important;
+  /* display: none; */
+}
   .left_side_text {
     margin-bottom: 50px; }
 
@@ -3081,6 +3088,7 @@ h6 {
     min-height: 300px; }
 
   .home_banner_area .banner_inner {
+    background-image: url("../logo192.png");
     min-height: 300px;
     padding-top: 200px;
     padding-bottom: 50px; }

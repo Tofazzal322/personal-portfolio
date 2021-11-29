@@ -21,7 +21,7 @@ const AboutMe = () => {
         <div class="row justify-content-start align-items-center">
           <div class="col-lg-5">
             <div class="about_img">
-              <img class="" src="img/about-us.png" alt="" />
+              <img class="" src="https://i.ibb.co/tzfP69S/player-4.jpg" alt="" />
             </div>
           </div>
 
@@ -33,14 +33,10 @@ const AboutMe = () => {
                 myself
               </h2>
               <p>
-                Whose given. Were gathered. There first subdue greater. Bearing
-                you Whales heaven midst their. Beast creepeth. Fish days.
+                I am a junior full stack web developer and graphics designer. I have completed full-stack web development course from Programming Hero and The Complete python Pro Bootcamp from Udemy Academy. 
               </p>
               <p>
-                Is give may shall likeness made yielding spirit a itself
-                together created after sea is in beast beginning signs open god
-                you're gathering whose gathered cattle let. Creature whales
-                fruit unto meat the life beginning all in under give two.
+                A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.
               </p>
               <a
                 target="_blank"

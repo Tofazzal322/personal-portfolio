@@ -8,23 +8,39 @@ const Footer = () => {
           <div className="col-lg-12">
             <div className="footer_top flex-column">
               <div className="footer_logo">
-                <a href="#">
+                <a href="https://nostalgic-volhard-82f4f5.netlify.app/">
                   <img src="https://i.ibb.co/DRnw9J5/Untitled-3.png" alt="" />
                 </a>
                 <h4>Follow Me</h4>
               </div>
               <div className="footer_social">
-                <a href="#">
-                  <i className="fa fa-facebook"></i>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/tofazzal-k-829241227/"
+                >
+                  <i className="fa fa-linkedin"></i>
                 </a>
-                <a href="#">
-                  <i className="fa fa-twitter"></i>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/Tofazzal322"
+                >
+                  <i className="fa fa-github-square"></i>
                 </a>
-                <a href="#">
-                  <i className="fa fa-dribbble"></i>
-                </a>
-                <a href="#">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://www.behance.net/tofazzalk1"
+                >
                   <i className="fa fa-behance"></i>
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://www.facebook.com/thopu.ahamed32"
+                >
+                  <i className="fa fa-facebook"></i>
                 </a>
               </div>
             </div>
